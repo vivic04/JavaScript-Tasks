@@ -421,3 +421,18 @@ const longest_func = (string) => {
 }
 
 console.log(longest_func(string_longest))
+
+//Task nested
+
+const nested_list = (nest) => {
+    if ((typeof nest) === number) {
+        return nest
+    
+    } else {
+        accum = []
+        accum += nested_list(nest)
+    } return
+}
+
+const nest = 34
+console.log(typeof nest)
