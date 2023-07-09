@@ -5,6 +5,11 @@ for (i = 0 ; i < arr.length; i++) {
     accum += arr[i] 
 }
 
+[0,1,2,3,4,5,6] //index - 0 1 2 3 4  
+var accum1 = 0
+for (let i = 0; i < accum1.length; i++)
+console.log(i)
+
 console.log(accum)
 
 var accum = 0
